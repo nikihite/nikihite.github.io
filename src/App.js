@@ -1,7 +1,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link,
 } from 'react-router-dom';
@@ -17,14 +17,14 @@ function App() {
           <Link className="nav-link" to="/projects">Projects</Link>
         </nav>
 
-        <Switch>
+        <Routes>
           <Route exact path="/">
             <HomePage />
           </Route>
           <Route exact path="/projects">
             <Projects />
           </Route>
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );
