@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Sono:wght@300&display=swap');
+
+.niki-logo1 {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 14vw;
+    right: 68vw;
+    font-size: 13vw;
+    color: hotpink;
+}
+
+.niki-logo1:hover {
+    color: rgb(255, 0, 128);
+}
+
+.niki-logo2 {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 25vw;
+    right: 62vw;
+    font-size: 13vw;
+    color: hotpink;
+}
+
+.niki-logo2:hover {
+    color: rgb(255, 0, 128);
+}
+
+.hello-friends {
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-size: 4vw;
+}
+
+.i-am {
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-size: 2.5vw;
+    top: 23.5vw;
+    right: 90vw;
+}
+
+.about {
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 900;
+    top: 30vw;
+    left: 48vw;
+}
+
+.contactme-button {
+    position: absolute;
+    font-family: 'Space Mono', monospace;
+    font-size: 2vw;
+    padding: 1vw;
+    width: 20vw;
+    top: 41vw;
+    left: 60vw;
+    border-radius: 50px;
+    background-color: rgb(255, 105, 180);
+    border: 0px;
+    transition: all .2s ease-in-out; 
+}
+
+.contactme-button:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
