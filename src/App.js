@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
   Link,
+  HashRouter
 } from 'react-router-dom';
 import Projects from './Projects';
 import HomePage from './HomePage';
@@ -15,6 +16,7 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <HashRouter basename='/'>
       <div className="App">
         <nav>
           <Link className="nav-link" to="/">Home</Link>
@@ -44,6 +46,7 @@ function App() {
               </Route>
             </Switch>
       </div>
+      </HashRouter>
     </Router>
   );
 }
